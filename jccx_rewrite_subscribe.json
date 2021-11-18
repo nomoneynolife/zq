@@ -9,45 +9,45 @@
   "rewrite": [
     {
       "match": "https://ant.xunsl.com/v5/article/info.json",
-      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
+      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jcwz.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/article/detail.json",
-      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
+      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jcwz.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/nameless/adlickstart.json",
-      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js",
+      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jckkz.js",
       "enable": true
     }, 
     {
       "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward.json",
-      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js",
+      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jcqd.js",
       "enable": true
     },
     {
       "match": "https://ant.xunsl.com/v5/CommonReward/toGetReward.json",
-      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js",
+      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jcbox.js",
       "enable": true
     }
     ,
     {
       "match": "https://ant.xunsl.com/v5/user/stay.json",
-      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js",
+      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jcwz.js",
       "enable": true
     }
     ,
     {
       "match": "https://ant.xunsl.com/v5/wechat/withdraw2.json",
-      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js",
+      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jc_withdraw.js",
       "enable": true
     }
     ,
     {
       "match": "https://ant.xunsl.com/v17/NewTask/getTaskList.json",
-      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js",
+      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jc_today_score.js",
       "enable": true
     }
   ],
@@ -60,7 +60,7 @@
       "time": "15 2 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js"
+        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jcqd.js"
       }
     },
     {
@@ -70,7 +70,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js"
+        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jcwz.js"
       }
     },
     {
@@ -80,7 +80,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js"
+        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jckkz.js"
       }
     },
     {
@@ -90,7 +90,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_share.js"
+        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jc_share.js"
       }
     },
     {
@@ -100,7 +100,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Adv_video.js"
+        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jc_Adv_video.js"
       }
     },
     {
@@ -110,7 +110,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js"
+        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jcbox.js"
       }
     },
     {
@@ -120,7 +120,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_friendSign.js"
+        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jc_friendSign.js"
       }
     },
     {
@@ -130,7 +130,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Rotary.js"
+        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jc_Rotary.js"
       }
     },
     {
@@ -140,7 +140,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js"
+        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jc_withdraw.js"
       }
     },
     {
@@ -150,7 +150,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js"
+        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jc_today_score.js"
       }
     }
     ]
