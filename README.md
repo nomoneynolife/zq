@@ -16,3 +16,11 @@
 
 ##### 您必须在下载后的24小时内从计算机或手机中完全删除以上内容.
 ***您使用或者复制了本仓库且本人制作的任何脚本，则视为`已接受`此免责声明，请仔细阅读***
+
+### 食用方法
+
+##### 中青重写/定时/HOST https://raw.githubusercontent.com/nomoneynolife/zq/master/zqcx_rewrite_subscribe.json
+
+##### 晶彩重写/定时/HOST https://raw.githubusercontent.com/nomoneynolife/zq/master/jccx_rewrite_subscribe.json
+
+##### 晶彩天气/定时/HOST https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite_subscribe.json  
