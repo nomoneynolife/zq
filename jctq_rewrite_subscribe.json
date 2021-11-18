@@ -1,0 +1,112 @@
+﻿{
+  "name": "晶彩天气重写订阅",
+  "type": "rewrite",
+  "note": "仅供参考",
+  "author": "nomoneynolife",
+  "mitmhost": [
+    "tq.xunsl.com"
+  ],
+  "rewrite": [
+    {
+    "match": "https://tq.xunsl.com/v17/NewTask/getTaskListByWeather.json",
+    "stage": "req",
+    "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_rewrite.js",
+    "enable": true
+    },
+    {
+    "match": "https://tq.xunsl.com/v5/CommonReward/toGetReward.json",
+    "stage": "req",
+    "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_rewrite.js",
+    "enable": true
+    },
+    {
+    "match": "https://tq.xunsl.com/v5/article/info.json",
+    "stage": "req",
+    "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_rewrite.js",
+    "enable": true
+    },
+    {
+    "match": "https://tq.xunsl.com/v5/article/detail.json",
+    "stage": "req",
+    "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_rewrite.js",
+    "enable": true
+    },
+    {
+    "match": "https://tq.xunsl.com/v5/user/stay.json",
+    "stage": "req",
+    "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_rewrite.js",
+    "enable": true
+    },
+    {
+    "match": "https://tq.xunsl.com/v5/nameless/adlickstart.json",
+    "stage": "req",
+    "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_rewrite.js",
+    "enable": true
+    },
+    {
+    "match": "https://tq.xunsl.com/v5/wechat/withdraw2.json",
+    "stage": "req",
+    "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_rewrite.js",
+    "enable": true
+    },
+    {
+    "match": "https://tq.xunsl.com/v5/Weather/giveBoxOnWeather.json",
+    "stage": "req",
+    "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_rewrite.js",
+    "enable": true
+    },
+    {
+    "match": "https://tq.xunsl.com/v5/weather/giveTimeInterval.json",
+    "stage": "req",
+    "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_rewrite.js",
+    "enable": true
+    },
+    {
+    "match": "https://tq.xunsl.com/v5/CommonReward/toDouble.json",
+    "stage": "req",
+    "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_rewrite.js",
+    "enable": true
+    }
+  ],
+  "task": {
+    "type": "skip",
+    "list": [
+        {
+            "name": "晶彩天气看看赚",
+            "type": "cron",
+            "time": "30 9,20 * * *",
+            "job": {
+                "type": "runjs",
+                "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_kkz.js"
+            }
+        },
+        {
+            "name": "晶彩天气文章视频",
+            "type": "cron",
+            "time": "20 7,18 * * *",
+            "job": {
+                "type": "runjs",
+                "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_read.js"
+            }
+        },
+        {
+            "name": "晶彩天气日常任务",
+            "type": "cron",
+            "time": "15,45 * * * *",
+            "job": {
+                "type": "runjs",
+                "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_daily.js"
+            }
+        },
+        {
+            "name": "晶彩天气任务签到",
+            "type": "cron",
+            "time": "30 22 * * *",
+            "job": {
+                "type": "runjs",
+                "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_reward.js"
+            }
+        }
+    ]
+  }
+}
