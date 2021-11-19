@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "晶彩重写订阅",
   "type": "rewrite",
   "note": "仅供参考",
@@ -42,7 +42,7 @@
     {
       "match": "https://ant.xunsl.com/v5/wechat/withdraw2.json",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jc_withdraw.js",
-      "enable": true
+      "enable": false
     }
     ,
     {
@@ -137,7 +137,7 @@
       "name": "晶彩提现",
       "type": "cron",
       "time": "34 10 * * *",
-      "running": true,
+      "running": false,
       "job": {
         "type": "runjs",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jc_withdraw.js"

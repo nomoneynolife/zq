@@ -1,0 +1,84 @@
+faq;
+本示例已docker-compose为演示；
+
+1.安装docker 和 docker-compose
+
+2.安装elecV2P
+ 2.1 打开V2P ANYPROXY "双击"
+ 2.2 MITM 下载证书 "导入手机"
+ 2.3 REWRITE 添加订阅 添加完保存；
+  2.3.1 检查 REWRITE TASK MITM
+		中青重写 https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqcx_rewrite_subscribe.json kandian.wkandian.com
+		晶彩重写 https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jccx_rewrite_subscribe.json ant.xunsl.com
+		晶彩天气 https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite_subscribe.json tq.xunsl.com
+ 2.4 修改手机网络代理
+ 2.5 打开对应APP抓包
+ 
+3.抓包
+ 3.1 中青 ver_3.6 注意宝箱和签到有冲突，只能抓一个；建议先抓签到 “其他版本不能抓COOKIE”
+   zq_cookie
+   每日收益查询    zq_today_score.js
+   火爆转发 		zq_share.js	
+   转盘抽奖		zq_Rotary.js
+   好友签到红包	zq_friendSign.js
+   福利视频		zq_Adv_video.js
+   打卡赚 			zq_wakeup.js
+   
+   签到：zqqd.js（zqqdbody）
+   - 进入app点击签到，
+   
+   任务宝箱奖励：zqbox.js（zqboxbody）
+   - app下方点击赚钱图标，在每日任务中点击所有可领取的奖励
+   
+   阅读文章，看视频：zqwz.js（zqwzbody，zq_timebody）
+   - 进入app点击文章、视频获取body
+   - 注意⚠️请务必抓取阅读时长，否则容易黑号，进入app阅读一分钟左右会抓取
+   - 视频的body要点进去博主的主页单独看，才抓得到
+   - app-下方第二个视频图标，那里有很多个一起竖排，一个个点进去发布者主页看视频
+   
+   以下3个需要清除数据后，才能看到；
+   
+   浏览赚：zqllz.js（调用zqllzbody)
+   - app-看看赚上方浏览赚-去白拿
+   
+   搜索赚：zqssz.js（调用zqsszbody）
+   - app-看看赚上方搜索赚-选择带🔥图标任务-去搜索，随便选一个热词搜索即可退出。
+   - 搜索赚只支持带🔥图标任务
+   
+   看看赚：zqkkz.js（zqlookStartbody）
+   - 点击看看赚某一任务获取body
+   - 每日任务里面的xx送好礼也是看看赚，用看看赚去抓
+   
+   建议手动提现；不抓取
+   
+   自动提现：zq_withdraw.js（zq_withdraw,zq_cash）
+   - 定时确保在脚本运行之前完成即可，一天一次
+   - 打开app进入提现页面，选择对应金额，点击立即提现（不管当日是否已经提现，都能抓），到变量中查看到有zq_withdraw即可
+   - 注意⚠️多账号用户抓包zq_withdraw时需要与zq_cookie账号顺序一致
+   - zq_cash不填默认0.3元，填的话有0.3，30两个选项（boxjs订阅中可直接修改，没有订阅的话直接新建变量即可）
+   - zq_withdraw务必与zq_cash金额一致，即修改zq_withdraw时也要修改zq_cash
+   
+ 3.2 晶彩 注意宝箱和签到有冲突，只能抓一个；建议先抓签到 “其他版本不能抓COOKIE”
+     与中青类似
+   
+ 3.3 晶彩天气(v8.3.7)
+    点开福利页即可获取jctqCookie
+    https://tq.xunsl.com/v5/CommonReward/toGetReward.json -- 签到，和福利页任务奖励
+    https://tq.xunsl.com/v5/article/info.json -- 点开文章获取文章body
+    https://tq.xunsl.com/v5/article/detail.json -- 点开视频获取视频body
+    https://tq.xunsl.com/v5/user/stay.json -- 阅读文章或者看视频一段时间后可以获取到时长body
+    https://tq.xunsl.com/v5/nameless/adlickstart.json -- 点开看看赚获取body，可以一直开着，脚本会自动删除重复body
+    https://tq.xunsl.com/v5/Weather/giveBoxOnWeather.json -- 点开福利页浮窗宝箱和观看翻倍视频获取body
+    https://tq.xunsl.com/v5/weather/giveTimeInterval.json -- 点开首页气泡红包和观看翻倍视频获取body
+    https://tq.xunsl.com/v5/wechat/withdraw2.json -- 提现一次对应金额获取body
+    https://tq.xunsl.com/v5/CommonReward/toDouble.json -- 领取签到翻倍奖励后可获取
+
+    任务：
+    jctq_daily.js -- 领转发页定时宝箱，领福利页定时宝箱，领首页气泡红包，时段转发，刷福利视频，抽奖5次
+    jctq_reward.js -- 签到和翻倍，任务奖励领取，统计今日收益，自动提现
+    jctq_kkz.js -- 完成看看赚任务，删除重复和失效的body
+    jctq_read.js -- 阅读文章，浏览视频
+
+    分享阅读：
+    jctq_shareRead.js -- 分享和助力阅读，需要在环境变量jctqShareNum里设置要被阅读的次数，不设置默认不跑
+   

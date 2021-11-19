@@ -1,0 +1,49 @@
+示例；
+
+version: '3.7'
+services:
+  elecv2p:
+    image: elecv2/elecv2p
+    container_name: 这里不能相同
+    restart: always
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - "这里不能相同:80"
+      - "这里不能相同:8001"
+      - "这里不能相同:8002"
+    volumes:
+      - "这里不能相同/JSFile:/usr/local/app/script/JSFile"
+      - "这里不能相同/Lists:/usr/local/app/script/Lists"
+      - "这里不能相同/Store:/usr/local/app/script/Store"
+      - "这里不能相同/Shell:/usr/local/app/script/Shell"
+      - "这里不能相同/rootCA:/usr/local/app/rootCA"
+      - "这里不能相同/efss:/usr/local/app/efss"
+
+
+
+
+容器1
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+version: '3.7'
+services:
+  elecv2p:
+    image: elecv2/elecv2p
+    container_name: elecv2p
+    restart: always
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - "80:80"
+      - "8001:8001"
+      - "8002:8002"
+    volumes:
+      - "/root/elecv2p/JSFile:/usr/local/app/script/JSFile"
+      - "/root/elecv2p/Lists:/usr/local/app/script/Lists"
+      - "/root/elecv2p/Store:/usr/local/app/script/Store"
+      - "/root/elecv2p/Shell:/usr/local/app/script/Shell"
+      - "/root/elecv2p/rootCA:/usr/local/app/rootCA"
+      - "/root/elecv2p/efss:/usr/local/app/efss"
+	  
+//////////////////////////////////////////////////////////////////////////////////////////////////////

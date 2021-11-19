@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "中青重写订阅",
   "type": "rewrite",
   "note": "仅供参考",
@@ -48,7 +48,7 @@
     {
       "match": "https://kandian.wkandian.com/v5/wechat/withdraw2.json",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_withdraw.js",
-      "enable": true
+      "enable": false
     } 
     ,
     {

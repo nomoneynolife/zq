@@ -40,7 +40,7 @@
     {
     "match": "https://tq.xunsl.com/v5/wechat/withdraw2.json",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
-    "enable": true
+    "enable": false
     },
     {
     "match": "https://tq.xunsl.com/v5/Weather/giveBoxOnWeather.json",
