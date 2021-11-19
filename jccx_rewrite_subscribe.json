@@ -4,9 +4,7 @@
   "note": "仅供参考",
   "author": "nomoneynolife",
   "mitmhost": [
-    "ant.xunsl.com",
-    true,
-	"晶彩"
+    "ant.xunsl.com"
   ],
   "rewrite": [
     {
