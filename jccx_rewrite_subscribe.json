@@ -5,8 +5,8 @@
   "author": "nomoneynolife",
   "mitmhost": [
     "ant.xunsl.com",
-    "enable": true,
-	"note": "晶彩"
+    true,
+	"晶彩"
   ],
   "rewrite": [
     {
