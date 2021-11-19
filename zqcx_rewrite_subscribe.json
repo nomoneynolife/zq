@@ -9,57 +9,57 @@
   "rewrite": [
     {
       "match": "https://kandian.wkandian.com/v5/article/info.json",
-      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqwz.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqwz.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v5/article/detail.json",
-      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqwz.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqwz.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v5/user/stay.json",
-      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqwz.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqwz.js",
       "enable": true
     }, 
     {
       "match": "https://kandian.wkandian.com/v5/CommonReward/toGetReward.json",
-      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqqd.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqqd.js",
       "enable": true
     },
     {
       "match": "https://kandian.wkandian.com/v17/NewTask/getTaskList.json",
-      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_today_score.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_today_score.js",
       "enable": true
     }
     ,
     {
       "match": "https://kandian.wkandian.com/v5/nameless/adlickstart.json",
-      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkkz.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkkz.js",
       "enable": true
     }
     ,
     {
       "match": "https://kandian.wkandian.com/v5/CommonReward/toGetReward.json",
-      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqbox.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqbox.js",
       "enable": true
     }
      ,
     {
       "match": "https://kandian.wkandian.com/v5/wechat/withdraw2.json",
-      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_withdraw.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_withdraw.js",
       "enable": true
     } 
     ,
     {
       "match": "https://kandian.wkandian.com/v5/task/browse_start.json",
-      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqllz.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqllz.js",
       "enable": true
     }
     ,
     {
       "match": "https://kandian.wkandian.com/v5/Sousuo/playStart.json",
-      "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqssz.js",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqssz.js",
       "enable": true
     }
   ],
@@ -72,7 +72,7 @@
       "time": "15 2 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqqd.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqqd.js"
       }
     },
     {
@@ -82,7 +82,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqwz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqwz.js"
       }
     },
     {
@@ -92,7 +92,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkkz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkkz.js"
       }
     },
     {
@@ -102,7 +102,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_share.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_share.js"
       }
     },
     {
@@ -112,7 +112,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_Adv_video.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_Adv_video.js"
       }
     },
     {
@@ -122,7 +122,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqbox.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqbox.js"
       }
     },
     {
@@ -132,7 +132,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_today_score.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_today_score.js"
       }
     },
     {
@@ -142,7 +142,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_friendSign.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_friendSign.js"
       }
     },
     {
@@ -152,7 +152,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_Rotary.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_Rotary.js"
       }
     },
     {
@@ -162,7 +162,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_wakeup.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_wakeup.js"
       }
     },
     {
@@ -172,7 +172,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqssz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqssz.js"
       }
     },
     {
@@ -182,7 +182,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqllz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqllz.js"
       }
     },
     {
@@ -192,7 +192,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_double.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_double.js"
       }
     },
     {
@@ -202,7 +202,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_withdraw.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_withdraw.js"
       }
     }
     ]

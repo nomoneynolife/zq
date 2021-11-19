@@ -10,61 +10,61 @@
     {
     "match": "https://tq.xunsl.com/v17/NewTask/getTaskListByWeather.json",
     "stage": "req",
-    "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
+    "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/CommonReward/toGetReward.json",
     "stage": "req",
-    "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
+    "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/article/info.json",
     "stage": "req",
-    "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
+    "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/article/detail.json",
     "stage": "req",
-    "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
+    "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/user/stay.json",
     "stage": "req",
-    "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
+    "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/nameless/adlickstart.json",
     "stage": "req",
-    "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
+    "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/wechat/withdraw2.json",
     "stage": "req",
-    "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
+    "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/Weather/giveBoxOnWeather.json",
     "stage": "req",
-    "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
+    "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/weather/giveTimeInterval.json",
     "stage": "req",
-    "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
+    "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/CommonReward/toDouble.json",
     "stage": "req",
-    "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
+    "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     }
   ],
@@ -77,7 +77,7 @@
             "time": "30 9,20 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_kkz.js"
+                "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_kkz.js"
             }
         },
         {
@@ -86,7 +86,7 @@
             "time": "20 7,18 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_read.js"
+                "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_read.js"
             }
         },
         {
@@ -95,7 +95,7 @@
             "time": "15,45 * * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_daily.js"
+                "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_daily.js"
             }
         },
         {
@@ -104,7 +104,7 @@
             "time": "30 22 * * *",
             "job": {
                 "type": "runjs",
-                "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_reward.js"
+                "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_reward.js"
             }
         }
     ]
