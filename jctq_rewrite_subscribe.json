@@ -9,61 +9,51 @@
   "rewrite": [
     {
     "match": "https://tq.xunsl.com/v17/NewTask/getTaskListByWeather.json",
-    "stage": "req",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/CommonReward/toGetReward.json",
-    "stage": "req",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/article/info.json",
-    "stage": "req",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/article/detail.json",
-    "stage": "req",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/user/stay.json",
-    "stage": "req",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/nameless/adlickstart.json",
-    "stage": "req",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/wechat/withdraw2.json",
-    "stage": "req",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/Weather/giveBoxOnWeather.json",
-    "stage": "req",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/weather/giveTimeInterval.json",
-    "stage": "req",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     },
     {
     "match": "https://tq.xunsl.com/v5/CommonReward/toDouble.json",
-    "stage": "req",
     "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite.js",
     "enable": true
     }
