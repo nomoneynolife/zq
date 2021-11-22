@@ -10,7 +10,7 @@
     {
       "match": "https://kandian.wkandian.com/V17/Ximalaya/setCompleteSec.json",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_music.js",
-      "enable": true
+      "enable": false
     },
     {
       "match": "https://kandian.wkandian.com/v17/Ad/getReward.json",
