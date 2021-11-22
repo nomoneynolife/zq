@@ -8,6 +8,11 @@
   ],
   "rewrite": [
     {
+      "match": "https://kandian.wkandian.com/v17/Ad/getReward.json",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_5_60.js",
+      "enable": true
+    },
+    {
       "match": "https://kandian.wkandian.com/v5/article/info.json",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqwz.js",
       "enable": true
