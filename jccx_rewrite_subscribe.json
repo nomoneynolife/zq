@@ -8,6 +8,11 @@
   ],
   "rewrite": [
     {
+      "match": "https://ant.xunsl.com/v17/Ad/getReward.json",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/Jc_5_60.js",
+      "enable": true
+    },
+    {
       "match": "https://ant.xunsl.com/v5/article/info.json",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jcwz.js",
       "enable": true
