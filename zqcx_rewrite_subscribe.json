@@ -136,6 +136,16 @@
       }
     },
     {
+      "name": "中青阅读时长宝箱领取",
+      "type": "cron",
+      "time": "20 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zq_5_60.js"
+      }
+    },
+    {
       "name": "中青每日收益统计",
       "type": "cron",
       "time": "15 23 * * *",
