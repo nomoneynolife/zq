@@ -26,7 +26,6 @@ let jctqShareNum = ($.isNode() ? process.env.jctqShareNum : $.getdata('jctqShare
 let newsItem = ''
 let UserAgent = ''
 let si = ''
-let iosVer = ['13_4_5', '13_4_1', '13_4', '13_3_1', '13_3', '13_2_3', '13_2_2', '13_2', '13_1_3', '13_1_2', '13_1_1', '13_1', '13_0', '12_4_1', '12_4', '12_3_1', '12_3', '12_2', '12_1_4', '12_1_3', '12_1_2', '12_1_1', '12_1', '12_0_1', '12_0', '11_4_1', '11_4', '11_3_1', '11_3', '11_2_6', '11_2_5', '11_2_2', '11_2_1', '11_2', '11_1_2', '11_1_1', '11_1', '11_0_3', '11_0_2', '11_0_1', '11_0', '10_3_3', '10_3_2', '10_3_1', '10_3', '10_2_1', '10_2', '10_1_1', '10_1', '10_0_2', '10_0_1', '9_3_5', '9_3_4', '9_3_3', '9_3_2', '9_3_1', '9_3', '9_2_1', '9_2', '9_1', '9_0_2', '9_0_1']
 
 ///////////////////////////////////////////////////////////////////
 
@@ -62,8 +61,7 @@ let iosVer = ['13_4_5', '13_4_1', '13_4', '13_3_1', '13_3', '13_2_3', '13_2_2', 
                     let factor = seedFactor > maxWaitTime ? maxWaitTime : seedFactor
                     let randomTime = Math.floor(Math.random()*factor) + 1000
                     let second = Math.floor(randomTime/1000)
-                    let idx = Math.floor(Math.random()*iosVer.length)
-                    UserAgent = `'Mozilla/5.0 (iPhone; CPU iPhone OS ${iosVer[idx]} like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.16(0x1800102c) NetType/WIFI Language/zh_CN'`
+                    UserAgent = 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.16(0x1800102c) NetType/WIFI Language/zh_CN'
                     si = randomString(32)
                     console.log(`--随机延迟${second}秒后开始模拟第${readCount}次分享阅读`)
                     await $.wait(randomTime)
@@ -136,7 +134,7 @@ function replaceCookie(jctqCookieItem) {
         jctqCookieItem = jctqCookieItem.replace(/zqkey_id=/, "cookie_id=")
     }
     if(jctqCookieItem.indexOf('app_version=') == -1) {
-        jctqCookieItem = 'app_version=8.3.7&' + jctqCookieItem
+        jctqCookieItem = 'app_version=8.3.9&' + jctqCookieItem
     }
     return jctqCookieItem
 }
