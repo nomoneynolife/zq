@@ -1,0 +1,86 @@
+﻿{
+  "name": "中青极速版重写订阅",
+  "type": "rewrite",
+  "note": "仅供参考",
+  "author": "nomoneynolife",
+  "mitmhost": [
+    "user.youth.cn"
+  ],
+  "rewrite": [
+    {
+      "match": "https://user.youth.cn/FastApi/NewTaskSimple/getTaskList",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_read.js",
+      "enable": false
+    },
+    {
+      "match": "https://user.youth.cn/v1/Nameless/adlickstart",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_kkz.js",
+      "enable": true
+    },
+    {
+      "match": "https://user.youth.cn/FastApi/Task/sign",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_reward.js",
+      "enable": true
+    },
+    {
+      "match": "https://user.youth.cn/FastApi/CommonReward/toGetReward",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_reward.js",
+      "enable": true
+    }
+  ],
+  "task": {
+    "type": "skip",
+    "list": [
+    {
+      "name": "文章视频",
+      "type": "cron",
+      "time": "25 8-22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_read.js"
+      }
+    },
+    {
+     "name": "看看赚",
+      "type": "cron",
+      "time": "35 10 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_kkz.js"
+      }
+    },
+    {
+     "name": "分享阅读",
+      "type": "cron",
+      "time": "10 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_shareRead.js"
+      }
+    },
+    {
+     "name": "日常任务(PK，抽奖)",
+      "type": "cron",
+      "time": "10 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_daily.js"
+      }
+    },
+    {
+      "name": "每日任务奖励",
+      "type": "cron",
+      "time": "10 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_reward.js"
+      }
+    }
+    ]
+  }
+}
