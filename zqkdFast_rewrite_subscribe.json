@@ -10,7 +10,7 @@
     {
       "match": "https://user.youth.cn/FastApi/NewTaskSimple/getTaskList",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_read.js",
-      "enable": false
+      "enable": true
     },
     {
       "match": "https://user.youth.cn/v1/Nameless/adlickstart",
@@ -34,51 +34,51 @@
     {
       "name": "文章视频",
       "type": "cron",
-      "time": "25 8-22 * * *",
+      "time": "28 8-22 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_read.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_read.js"
       }
     },
     {
      "name": "看看赚",
       "type": "cron",
-      "time": "35 10 * * *",
+      "time": "18 13 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_kkz.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_kkz.js"
       }
     },
     {
      "name": "分享阅读",
       "type": "cron",
-      "time": "10 22 * * *",
+      "time": "18 18 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_shareRead.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_shareRead.js"
       }
     },
     {
      "name": "日常任务(PK，抽奖)",
       "type": "cron",
-      "time": "10 22 * * *",
+      "time": "8 8-22/2 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_daily.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_daily.js"
       }
     },
     {
       "name": "每日任务奖励",
       "type": "cron",
-      "time": "10 22 * * *",
+      "time": "18 22 * * *",
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_reward.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_reward.js"
       }
     }
     ]

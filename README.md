@@ -23,6 +23,8 @@
 
 ##### 中青重写/定时/HOST kandian.wkandian.com  https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqcx_rewrite_subscribe.json
 
+##### 中青极速版(快应用)重写/定时/HOST user.youth.cn  https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_rewrite_subscribe.json
+
 ##### 晶彩重写/定时/HOST ant.xunsl.com https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jccx_rewrite_subscribe.json
 
 ##### 水果天气/定时/HOST tq.xunsl.com https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite_subscribe.json  
