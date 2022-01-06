@@ -17,13 +17,13 @@
       "match": "https://user.youth.cn/v1/Nameless/adlickstart",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_kkz.js",
       "enable": true,
-      "note": "看看赚"
+      "note": "获取看看赚"
     },
     {
       "match": "https://user.youth.cn/FastApi/Task/sign",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_reward.js",
       "enable": true,
-      "note": "每日任务"
+      "note": "获取签到"
     },
     {
       "match": "https://user.youth.cn/FastApi/CommonReward/toGetReward",
