@@ -106,7 +106,6 @@ faq;
     https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_read.js
     
     获取看看赚body重写(目前每个号捉一个就行)：
-	卡在红包页面建议只开看看赚的重写
     https://user.youth.cn/v1/Nameless/adlickstart  
     https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkdFast/zqkdFast_kkz.js
     
