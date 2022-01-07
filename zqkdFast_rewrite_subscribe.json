@@ -11,14 +11,12 @@
       "match": "https://user.youth.cn/FastApi/NewTaskSimple/getTaskList",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_read.js",
       "enable": true,
-      "note": "获取CK"
       "stage": "req"
     },
     {
       "match": "https://user.youth.cn/v1/Nameless/adlickstart",
       "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_kkz.js",
       "enable": true,
-      "note": "获取看看赚"
       "stage": "req"
     }
   ],
