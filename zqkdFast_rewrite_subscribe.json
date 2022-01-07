@@ -20,20 +20,6 @@
       "enable": true,
       "note": "获取看看赚"
       "stage": "req"
-    },
-    {
-      "match": "https://user.youth.cn/FastApi/Task/sign",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_reward.js",
-      "enable": true,
-      "note": "获取签到"
-      "stage": "req"
-    },
-    {
-      "match": "https://user.youth.cn/FastApi/CommonReward/toGetReward",
-      "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_reward.js",
-      "enable": true,
-      "note": "获取奖励"
-      "stage": "req"
     }
   ],
   "task": {
@@ -86,7 +72,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_reward.js"
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_reward_pro.js"
       }
     }
     ]
