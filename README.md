@@ -1,5 +1,3 @@
-# 重大新闻；账号全黑，已全部注销，我们2月份再见了！
-
 ## duck不必fork！ duck不必fork！duck不必fork！ 给个星星就行
 
 ## 免责声明: 
@@ -18,14 +16,3 @@
 
 ##### 您必须在下载后的24小时内从计算机或手机中完全删除以上内容.
 ***您使用或者复制了本仓库且本人制作的任何脚本，则视为`已接受`此免责声明，请仔细阅读***
-
-### 食用方法
-
-##### 中青重写/定时/HOST kandian.wkandian.com  https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqcx_rewrite_subscribe.json
-
-##### 中青极速版(快应用)重写/定时/HOST user.youth.cn  https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/zqkdFast_rewrite_subscribe.json
-
-##### 晶彩重写/定时/HOST ant.xunsl.com https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jccx_rewrite_subscribe.json
-
-##### 水果天气/定时/HOST tq.xunsl.com https://ghproxy.com/https://raw.githubusercontent.com/nomoneynolife/zq/master/jctq_rewrite_subscribe.json  
-* 晶彩天气v8.3.9改名水果天气,防止黑号删了全部重新抓.
