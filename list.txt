@@ -1,0 +1,34 @@
+中青看点：
+
+内置版本号3.9.8，只测试了青龙，需要安装依赖crypto-js
+有问题自己尝试，不回答，爱跑就跑，不跑拉倒
+
+需要变量zqkdCookie，自己捉包填写，多账号@隔开，格式：
+uid=123&zqkey=123&zqkey_id=123
+
+
+
+
+听歌：
+https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkd/zqkd_audio.js
+26 10,19 * * *
+
+看看赚：
+https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkd/zqkd_kkz.js
+2 2,15 * * *
+
+文章视频：
+https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkd/zqkd_read.js
+4-59/15 11-18 * * *
+
+定时奖励：
+https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkd/zqkd_timerBox.js
+1-59/15 * * * *
+
+任务奖励：
+https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkd/zqkd_reward.js
+50 21 * * *
+
+分享阅读(想清楚再跑)：
+https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkd/zqkd_shareRead.js
+自己定时
